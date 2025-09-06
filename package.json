@@ -1,6 +1,6 @@
 {
   "name": "standard-open-data-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Un connecteur standard pour accéder aux données ouvertes",
   "main": "index.js",
   "scripts": {
