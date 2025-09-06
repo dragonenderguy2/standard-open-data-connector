@@ -5,7 +5,7 @@ async function fetchData(url) {
         const response = await axios.get(url, { timeout: 10000 });
         return response.data;
     } catch (error) {
-        console.error(`Error fetching data from ${url}: ${error}`);
+        console.error(`Error fetching data from ${url}: ${error.response ? error.response.status : 'No response'} - ${error.message}`);
         throw error;
     }
 }
