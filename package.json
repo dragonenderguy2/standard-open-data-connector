@@ -1,0 +1,13 @@
+{
+  "name": "standard-open-data-connector",
+  "version": "1.0.0",
+  "description": "Un connecteur standard pour accéder aux données ouvertes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Aucun test défini'"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "license": "MIT"
+}
